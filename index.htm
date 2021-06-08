@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="monsterlogo.jpg" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monster Killer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="you-won">
+      <h1>You Won<br /><span class="emojy">🏆</span></h1>
+    </div>
+    <div class="you-lose">
+      <h1>You Lose<br /><span class="emojy">😢</span></h1>
+    </div>
+    <div class="Win-gif">
+      <img src="win5.gif" alt="" />
+    </div>
+    <div class="container">
+      <div class="health-levels">
+        <h1 class="gianth1">
+          Monster<span class="giant-emojy">👿</span>Health
+        </h1>
+        <progress class="monster-health" value="100" max="100"></progress>
+        <h1 class="humanh1">Human<span class="giant-emojy">🤹‍♂️</span> Health</h1>
+        <progress class="human-health" value="100" max="100"></progress>
+      </div>
+      <div class="controls">
+        <div class="attack-btn">Attack</div>
+        <div class="heavy-attack-btn">Heavy Attack</div>
+        <div class="health-heal">
+          Heal Health<span class="giant-emojy">💚</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
